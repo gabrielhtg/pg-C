@@ -1,6 +1,6 @@
 # Playground C
 
-Ini adalah repository untuk menyimpan program-program (non proyek) saya. Feel free untuk mencobanya.
+This is a repository to store my (non project) programs. Feel Free to try it. :laughing:
 
 ## <b>About Me</b>
 
