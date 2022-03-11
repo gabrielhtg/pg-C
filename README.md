@@ -1,6 +1,6 @@
 # Playground C
 
-This is a repository to store my (non project) programs. Feel Free to try it. :laughing:
+This is a repository to store my (non project) programs for C programming language. Feel Free to try it. :laughing:
 
 ## <b>About Me</b>
 
