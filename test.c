@@ -1,17 +1,31 @@
 #include <stdio.h>
-#include <string.h>
+/*
+Add `int max_of_four(int a, int b, int c, int d)` here.
+*/
+
+int max_of_four(int a, int b, int c, int d) {
+    if (a > b && a > c && a > d) {
+        return a;
+    }
+    
+    else if (b > a && b > c && b > d) {
+        return b;
+    }
+    
+    else if (c > b && c > a && c > d) {
+        return c;
+    }
+    
+    else {
+        return d;
+    }
+}
 
 int main() {
-  char str1[] = "abcd", str2[] = "abCd", str3[] = "abcd";
-  int result;
-
-  // comparing strings str1 and str2
-  result = strcmp(str1, str2);
-  printf("strcmp(str1, str2) = %d\n", result);
-
-  // comparing strings str1 and str3
-  result = strcmp("abcd", str2);
-  printf("strcmp(str1, str3) = %d\n", result);
-
-  return 0;
+    int a, b, c, d;
+    scanf("%d %d %d %d", &a, &b, &c, &d);
+    int ans = max_of_four(a, b, c, d);
+    printf("%d\n", ans);
+    
+    return 0;
 }
