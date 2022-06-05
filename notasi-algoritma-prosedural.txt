@@ -1,0 +1,12 @@
+================================================
+Program Cek Bilangan Ganjil atau Genap
+
+{Ini adalah program untuk memeriksa bilangan}
+{apakah merupakan bilangan Genap atau tidak}
+================================================
+KAMUS
+
+x   : integer {input bilangan dari user}
+================================================
+ALGORITMA
+

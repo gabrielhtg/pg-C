@@ -1,18 +1,22 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include <math.h>
-#include <gtk/gtk.h>
+#include <string.h>
+
+struct siswa {
+    char nama[100];
+    char nim[15];
+    int umur;
+};
 
 int main () {
-    int x, y;
+    struct siswa Gabriel;    
 
-    printf("Masukkan x : ");
-    scanf("%d", &x);
-    printf("Masukkan y : ");
-    scanf("%d", &y);
+    strcpy(Gabriel.nama, "Gabriel Cesar Hutagalung");
+    strcpy(Gabriel.nim, "11S21010");
+    Gabriel.umur = 19;
 
-    double hasil = ((pow(x, 2) - (2 * (x * y))) - pow(y, 2)) / (pow(x,2) + pow(y, 2));
+    printf("Nama    : %s\n", Gabriel.nama);
+    printf("NIM     : %s\n", Gabriel.nim);
+    printf("Nama    : %d\n", Gabriel.umur);
 
-    printf("Hasilnya adalah : %0.2lf\n", hasil);
     return 0;
 }
